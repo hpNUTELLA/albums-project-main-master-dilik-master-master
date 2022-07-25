@@ -1,0 +1,13 @@
+.pagination-wrap {
+    list-style-type: none;
+    display: flex;
+    li  {
+        margin-left: 12px;
+        button  {
+            outline: none;
+            border: none;
+            color: black;
+            background-color: #fff;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+main {
+    width: 50%;
+    margin: 100px auto;
+    form    {
+        text-align: center;
+        .login-arreas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input   {
+                width: 230px;
+                border-radius: 5px;
+                box-sizing: border-box;
+                padding: 10px 15px;
+                margin-top: 10px;
+                border: none;
+                outline: none;
+                background-color: #F4F4F4;
+                height: 40px;
+            }
+        }
+        button    {
+            width: 230px;
+            box-sizing: border-box;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 15px;
+            margin-top: 10px;
+            font-size: 15px; 
+            height: 40px;       
+            border-radius: 5px;  
+        }
+        span    {
+            padding-top: 10px;
+            display: block;
+            margin-bottom: 30px;
+        }
+    }
+}

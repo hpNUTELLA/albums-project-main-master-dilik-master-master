@@ -1,0 +1,34 @@
+.container {
+  margin: 0 auto;
+  .wrapper-home-page {
+    display: flex;
+
+    .home-left-section {
+      width: 35%;
+    }
+    .home-right-section {
+      width: 65%;
+      img {
+        width: 23px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+    .wrapper-home-page {
+      flex-direction: column-reverse;
+      margin: 50px auto;
+      .home-left-section {
+        width: 70%;
+        margin: 0 50px;
+      }
+      .home-right-section {
+        width: 100%;
+        margin: 0 50px;
+      }
+    }
+  }
+}
